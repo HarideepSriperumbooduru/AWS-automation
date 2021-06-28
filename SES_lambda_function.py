@@ -80,3 +80,17 @@ def lambda_handler(event, context):
         'statusCode': 200,
         'body': json.dumps(BODY_TEXT)
     }
+
+# testing configuration file
+# {
+#   "RECIPIENTS": [
+#     "pulugujja.shivan@gmail.com"
+#   ],
+#   "WEBSITE_NAME": "hello webiste",
+#   "CCADDRESSES": [
+#     "shanthisai07@msitprogram.net"
+#   ],
+#   "IS_ERROR": "FALSE",
+#   "MESSAGE": "EVERTHING IS FINE",
+#   "WEBSITE_URL": "SOME URL"
+# }
