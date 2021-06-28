@@ -1,0 +1,5 @@
+
+###### cron job to download updated spider files of a website from GITHUB ##################
+@reboot svn export https://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@github.com/HarideepSriperumbooduru/JobAggregation_projects/trunk/Verizon --force
+###### cron job to start the scraping process in the lightsail instances ##################
+@reboot cd /home/ec2-user/JobAggregation_projects/UPS/UPS/spiders && /home/ec2-user/.local/bin/scrapy runspider upsSpider.py -o /home/ec2-user/upsNew.csv
