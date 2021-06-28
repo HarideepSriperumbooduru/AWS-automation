@@ -1,0 +1,14 @@
+{
+    "tasks":[
+                {
+                    "CronExpression": "cron(0 9 * * ? *)",
+                    "InstancesList":   ["Amazon_Linux_2-1"],
+                    "Operation": "start",
+                    "EventRoleName": "Scheduling event"
+                },
+                {
+
+                }
+    ]
+}
+
